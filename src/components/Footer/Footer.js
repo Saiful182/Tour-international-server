@@ -1,12 +1,13 @@
 import React from 'react';
-
+import logo from '../../logo.png';
 import './Footer.css'
 
 const Footer = () => {
     return (
         <div className="footer-area">
 
-            <h3>Peoples Care Hospital</h3>
+            <h3>Tour International LTD.</h3>
+            <img src={logo} alt="" />
 
             <div className="important-links">
                 <div>

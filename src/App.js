@@ -11,6 +11,10 @@ import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
+import Register from './components/Register/Register';
+import UserOrderList from './components/UserOrderList/UserOrderList';
+import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
+import AddNewDestinations from './components/Add New Destination/AddNewDestinations';
 function App() {
   return (
     <div>
@@ -35,13 +39,25 @@ function App() {
           <Route exact path="/login">
             <LogIn></LogIn>
           </Route>
+          <Route exact path="/register">
+            <Register></Register>
+          </Route>
+          <Route exact path="/userorderlist">
+            <UserOrderList></UserOrderList>
+          </Route>
+          <Route exact path="/manageallorders">
+            <ManageAllOrders></ManageAllOrders>
+          </Route>
+          <Route exact path="/addnewdestination">
+            <AddNewDestinations></AddNewDestinations>
+          </Route>
           <Route exact path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
       </Router >
-    </div>
+    </div >
 
   );
 }
