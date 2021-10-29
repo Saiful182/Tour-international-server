@@ -1,0 +1,32 @@
+.footer-area{
+    background-color: #212529;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.footer-area img{
+    height: 60px;
+    width: 60px;
+    margin: 10px auto;
+}
+.important-links{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.importantLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .important-links{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 992px) {
+    .important-links{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
