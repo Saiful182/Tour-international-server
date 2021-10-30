@@ -1,0 +1,17 @@
+.guide-card{
+    border-radius: 20px !important;
+    margin: 20px !important;
+    height: 325px !important;
+    line-height: 25px !important;
+    background-color: rgb(208, 235, 235) !important;
+    padding: 16px !important;
+}
+.guide-card img{
+    margin: auto;
+    border-radius: 20px !important;
+    height: 150px !important;
+    width: 160px !important;
+}
+.guide-card button{
+    border-radius: 5px !important;
+}

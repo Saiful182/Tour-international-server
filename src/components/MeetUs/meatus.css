@@ -1,0 +1,15 @@
+.banner img{
+    width: 100%;
+}
+.aboutus,.wannaknow{
+    margin: 20px;
+}
+.aboutus h2,.wannaknow h2{
+    margin: 10px;
+}
+.stuff-container{
+    margin: 30px;
+}
+.stuff-container h2{
+    margin: 20px 0;
+}

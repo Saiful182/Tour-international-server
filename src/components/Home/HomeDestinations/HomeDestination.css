@@ -1,0 +1,14 @@
+.destination-card{
+    border-radius: 20px !important;
+    margin: 20px !important;
+    height: 750px !important;
+    line-height: 25px !important;
+    background-color: rgb(208, 235, 235) !important;
+}
+.destination-card img{
+    border-radius: 20px !important;
+    height: 192px !important; 
+}
+.destination-card button{
+    border-radius: 5px !important;
+}

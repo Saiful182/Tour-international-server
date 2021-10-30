@@ -1,0 +1,8 @@
+.stuff-container-card{
+    background-color: rgb(208, 235, 235) !important;
+    border-radius: 15px;
+}
+.stuff-container-card img{
+    height: 250px !important;
+    border-radius: 15px;
+}

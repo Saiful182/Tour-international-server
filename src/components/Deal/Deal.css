@@ -1,0 +1,12 @@
+.bd-places-card{
+    border-radius: 20px !important;
+    margin: 20px !important;
+    height: 525px !important;
+    line-height: 25px !important;
+    background-color: rgb(208, 235, 235) !important;
+    padding: 16px !important;
+}
+.bd-places-card img{
+    border-radius: 20px !important;
+    height: 250px !important;
+}

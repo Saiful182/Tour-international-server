@@ -1,17 +1,20 @@
 import React from 'react';
-import FeatureHotels from './FeatureHotels/FeatureHotel';
+import ClientComments from './ClientComments/ClientComments';
+import Guides from './Guides/Guides';
 
 import HomeBanner from './HomeBanners/HomeBanner';
+import HomeDeals from './HomeDeals/HomeDeals';
 import HomeDestinations from './HomeDestinations/HomeDestinations';
 
 
 const Home = () => {
     return (
         <div>
-            this is home
-            {/* <HomeBanner></HomeBanner>
+            <HomeBanner></HomeBanner>
             <HomeDestinations></HomeDestinations>
-            <FeatureHotels></FeatureHotels> */}
+            <HomeDeals></HomeDeals>
+            <Guides></Guides>
+            <ClientComments></ClientComments>
         </div>
     );
 };

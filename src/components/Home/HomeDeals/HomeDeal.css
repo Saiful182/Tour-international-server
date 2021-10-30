@@ -1,0 +1,15 @@
+.bd-info-card{
+    border-radius: 20px !important;
+    margin: 20px !important;
+    height: 410px !important;
+    line-height: 25px !important;
+    background-color: rgb(208, 235, 235) !important;
+    padding: 16px !important;
+}
+.bd-info-card img{
+    border-radius: 20px !important;
+    height: 192px !important;
+}
+.bd-info-card button{
+    border-radius: 5px !important;
+}

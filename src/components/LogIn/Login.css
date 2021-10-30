@@ -1,0 +1,20 @@
+.LoginForm{
+    width: 40%;
+    margin: auto;
+    border:1px solid none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(117, 117, 139, 0.5);
+}
+.LoginForm label,p{
+  color:white;
+}
+.login-container{
+    display:flex;
+    height: 600px;
+    background: url('../../images/loginback.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+    justify-content: space-around;
+}

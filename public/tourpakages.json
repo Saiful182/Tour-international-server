@@ -3,6 +3,7 @@
         "name": "Egypt Adventure",
         "country": "Egypt",
         "Price": 1195,
+        "offerPrice": "25%",
         "days": 8,
         "places": "Cairo,Luxor",
         "review": 4.5,
@@ -14,6 +15,7 @@
     {
         "name": "Felucca Odyssey",
         "country": "Egypt",
+        "offerPrice": "",
         "days": 9,
         "Price": 1395,
         "review": 3.5,
@@ -26,6 +28,7 @@
     {
         "name": "Thai Intro 12 Day",
         "country": "Thailand",
+        "offerPrice": "30%",
         "days": 12,
         "Price": 1100,
         "review": 5,
@@ -38,6 +41,7 @@
     {
         "name": "Thailand Island Hopper",
         "country": "Thailand",
+        "offerPrice": "10%",
         "days": 14,
         "Price": 1495,
         "review": 4.7,
@@ -50,6 +54,7 @@
     {
         "name": "Get Social: New Zealand",
         "country": "New Zealand",
+        "offerPrice": "40%",
         "days": 17,
         "Price": 3895,
         "review": 4.2,
@@ -62,6 +67,7 @@
     {
         "name": "North Island Adventure Tour",
         "country": "New Zealand",
+        "offerPrice": "",
         "days": 7,
         "Price": 1895,
         "review": 4.6,
@@ -74,6 +80,7 @@
     {
         "name": "Explore Golden Triangle",
         "country": "India",
+        "offerPrice": "20%",
         "days": 7,
         "Price": 895,
         "review": 4.6,
@@ -86,6 +93,7 @@
     {
         "name": "RANTHAMBORE NATIONAL PARK & BHARATUR WITH GOLDEN TRIANGLE TOUR",
         "country": "India",
+        "offerPrice": "15%",
         "days": 6,
         "Price": 795,
         "review": 4.1,
@@ -98,6 +106,7 @@
     {
         "name": "Annapurna Homestay Trek",
         "country": "Nepal",
+        "offerPrice": "",
         "days": 5,
         "Price": 695,
         "review": 4.7,
@@ -110,6 +119,7 @@
     {
         "name": "Explore Nepal Tours 11 Days",
         "country": "Nepal",
+        "offerPrice": "",
         "days": 11,
         "Price": 801,
         "review": 4.8,
@@ -122,6 +132,7 @@
     {
         "name": "Grand Canadian Rockies",
         "country": "Canada",
+        "offerPrice": "30%",
         "days": 10,
         "Price": 3980,
         "review": 4.9,
@@ -134,6 +145,7 @@
     {
         "name": "The Powder Rush",
         "country": "Canada",
+        "offerPrice": "20%",
         "days": 9,
         "Price": 1376,
         "review": 4.5,
@@ -146,6 +158,7 @@
     {
         "name": "Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience",
         "country": "Barzil",
+        "offerPrice": "",
         "days": 12,
         "Price": 1863,
         "review": 4.3,
@@ -158,6 +171,7 @@
     {
         "name": "Adventure Route - From São Luis to Fortaleza - 7 Days  ",
         "country": "Barzil",
+        "offerPrice": "",
         "days": 7,
         "Price": 1163,
         "review": 4.4,
@@ -170,6 +184,7 @@
     {
         "name": "Madagascar Baobabs & Beyond  ",
         "country": "Madagasca",
+        "offerPrice": "",
         "days": 11,
         "Price": 1263,
         "review": 4.7,
@@ -182,6 +197,7 @@
     {
         "name": "15 Days Details Madagascar",
         "country": "Madagasca",
+        "offerPrice": "45%",
         "days": 15,
         "Price": 2763,
         "review": 4.8,
@@ -194,6 +210,7 @@
     {
         "name": "Ultimate Spain Adventure Tour",
         "country": "Spain",
+        "offerPrice": "10%",
         "days": 10,
         "Price": 1763,
         "review": 4.6,
@@ -206,6 +223,7 @@
     {
         "name": "Classic Spain ",
         "country": "Spain",
+        "offerPrice": "",
         "days": 7,
         "Price": 1263,
         "review": 4.2,
@@ -218,6 +236,7 @@
     {
         "name": "Wonders of the Maya",
         "country": "Mexico",
+        "offerPrice": "30%",
         "days": 8,
         "Price": 1163,
         "review": 4.7,
@@ -230,6 +249,7 @@
     {
         "name": "Mexico Real Food Adventure ",
         "country": "Maxicon",
+        "offerPrice": "10%",
         "days": 9,
         "Price": 1563,
         "review": 4.2,
@@ -242,6 +262,7 @@
     {
         "name": "Mexico Real Food Adventure ",
         "country": "Maxicon",
+        "offerPrice": "",
         "days": 9,
         "Price": 1563,
         "review": 4.2,

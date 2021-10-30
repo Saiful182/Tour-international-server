@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useHistory } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
+import './register.css'
 
 const Register = () => {
 
@@ -41,7 +42,7 @@ const Register = () => {
             });
     }
     return (
-        <div>
+        <div className="register-container">
 
             <Form className="regitration-Form" onSubmit={registrationHandeler} >
                 <Form.Group className="mb-3" controlId="formBasicEmail">
