@@ -15,48 +15,54 @@ import Register from './components/Register/Register';
 import UserOrderList from './components/UserOrderList/UserOrderList';
 import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
 import AddNewDestinations from './components/Add New Destination/AddNewDestinations';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div>
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/home">
-            <Home ></Home>
-          </Route>
-          <Route exact path="/destinations">
-            <Destinations></Destinations>
-          </Route>
-          <Route exact path="/hotdeals">
-            <Deals></Deals>
-          </Route>
-          <Route exact path="/meetus">
-            <MeetUs></MeetUs>
-          </Route>
-          <Route exact path="/login">
-            <LogIn></LogIn>
-          </Route>
-          <Route exact path="/register">
-            <Register></Register>
-          </Route>
-          <Route exact path="/userorderlist">
-            <UserOrderList></UserOrderList>
-          </Route>
-          <Route exact path="/manageallorders">
-            <ManageAllOrders></ManageAllOrders>
-          </Route>
-          <Route exact path="/addnewdestination">
-            <AddNewDestinations></AddNewDestinations>
-          </Route>
-          <Route exact path="*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router >
+
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/home">
+              <Home ></Home>
+            </Route>
+            <Route exact path="/destinations">
+              <Destinations></Destinations>
+            </Route>
+            <Route exact path="/hotdeals">
+              <Deals></Deals>
+            </Route>
+            <Route exact path="/meetus">
+              <MeetUs></MeetUs>
+            </Route>
+            <Route exact path="/login">
+              <LogIn></LogIn>
+            </Route>
+            <Route exact path="/register">
+              <Register></Register>
+            </Route>
+
+            <PrivateRoute exact path="/userorderlist">
+              <UserOrderList></UserOrderList>
+            </PrivateRoute>
+            <PrivateRoute exact path="/manageallorders">
+              <ManageAllOrders></ManageAllOrders>
+            </PrivateRoute>
+            <PrivateRoute exact path="/addnewdestination">
+              <AddNewDestinations></AddNewDestinations>
+            </PrivateRoute>
+            <Route exact path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router >
+      </AuthProvider>
     </div >
 
   );

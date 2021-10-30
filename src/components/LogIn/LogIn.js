@@ -1,9 +1,25 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import useFirebase from '../hooks/useFirebase';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import useAuth from '../hooks/useAuth';
+
 const LogIn = () => {
-    const { user, signInUsingGoogle, setEmail, setPassword, logInWithPasswordEmail, error } = useFirebase();
+    const { setUser, setError, signInUsingGoogle, setEmail, setPassword, logInWithPasswordEmail, error } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || 'home';
+    const handelGoogleLogIn = () => {
+        signInUsingGoogle()
+            .then((result) => {
+                history.push(redirect_uri);
+                const user = result.user;
+                setUser(user);
+                setError('');
+            }).catch((error) => {
+                const errorMessage = error.message;
+                setError(errorMessage)
+            });
+    }
     const handelEmail = e => {
         setEmail(e.target.value);
     }
@@ -13,6 +29,16 @@ const LogIn = () => {
     const handelLogin = e => {
         e.preventDefault();
         logInWithPasswordEmail()
+            .then((userCredential) => {
+                history.push(redirect_uri);
+                const user = userCredential.user;
+                setUser(user);
+                setError('');
+            })
+            .catch((error) => {
+                const errorMessage = error.message;
+                setError(errorMessage);
+            });
     }
     return (
         <div>
@@ -28,7 +54,7 @@ const LogIn = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                <p>or log in with <Button onClick={signInUsingGoogle} >Google</Button> </p>
+                <p>or log in with <Button onClick={handelGoogleLogIn} >Google</Button> </p>
                 <p>{error}</p>
                 <p>New user? <Link to="/register">Register</Link> now .</p>
             </Form>

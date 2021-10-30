@@ -3,7 +3,7 @@ import React from 'react';
 const AddNewDestinations = () => {
     return (
         <div>
-            new destination
+            <img src="" alt="" />
         </div>
     );
 };

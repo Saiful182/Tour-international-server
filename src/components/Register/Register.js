@@ -1,48 +1,68 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import useFirebase from '../hooks/useFirebase';
+import { Button, Form } from 'react-bootstrap';
+import { Link, useHistory } from 'react-router-dom';
+import useAuth from '../hooks/useAuth';
 
 const Register = () => {
-    const { setPassword, error, setName, setEmail, regitration } = useFirebase()
+
+    const history = useHistory();
+    const redirect_uri = '/home';
+    const { setPassword, error, setUserName, password, setName, setError, setUser, setEmail, regitration } = useAuth();
 
     const handelName = e => {
-        setName(e.target.value)
-    }
+        setName(e.target.value);
+    };
     const handelEmail = e => {
-        setEmail(e.target.value)
-    }
-    const handelPassword = e => {
-        setPassword(e.target.value)
-    }
+        setEmail(e.target.value);
+    };
+    const handelePasswordChange = e => {
+        setPassword(e.target.value);
+    };
     const registrationHandeler = e => {
-        e.target.value = '';
 
         e.preventDefault();
-        regitration();
+        if (password.length < 6) {
+            setError('Password Should be more then 6 charecter');
+            return;
+        }
+        regitration()
+            .then((userCredential) => {
+                history.push(redirect_uri);
+                setUserName();
+                const user = userCredential.user;
+                setUser(user);
+                setError('');
+                e.target.value = '';
+
+            })
+            .catch((error) => {
+                const errorMessage = error.message;
+                setError(errorMessage);
+            });
     }
     return (
         <div>
-            <form onClick={registrationHandeler}>
 
-                <div className="mb-3">
-                    <label htmlFor="exampleInputText" className="form-label">Type Your Name</label>
-                    <input onBlur={handelName} type="text" className="form-control" id="exampleInputText" aria-describedby="TextHelp" required />
+            <Form className="regitration-Form" onSubmit={registrationHandeler} >
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Type Your Name</Form.Label>
+                    <Form.Control onBlur={handelName} type="text" placeholder="You Name" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control onBlur={handelEmail} type="email" placeholder="Enter email" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control onBlur={handelePasswordChange} type="password" placeholder="Password" />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
 
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                    <input onBlur={handelEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
-
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                    <input onBlur={handelPassword} type="password" className="form-control" id="exampleInputPassword1" required />
-                </div>
-
-                <button type="submit" className="btn btn-primary">Submit</button>
                 <p>{error}</p>
-                <p>Already Registered? <Link to="/login">LogIn</Link> now .</p>
-            </form>
+                <p> Already Registered? Then <Link to="/login">Log-In</Link> now .</p>
+            </Form>
         </div>
     );
 };

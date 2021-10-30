@@ -1,13 +1,14 @@
 
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Logo from '../../logo.png'
-import useFirebase from '../hooks/useFirebase';
+import useAuth from '../hooks/useAuth';
+
 import './Header.css'
 
 const Header = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut } = useAuth();
     const LogOutButton = () => {
         logOut();
     }
@@ -27,8 +28,16 @@ const Header = () => {
                         </Nav>
 
                         <Nav>
-                            <Nav.Link as={Link} to="/manageallorders">Manage All Orders</Nav.Link>
-                            <Nav.Link as={Link} to="/addnewdestination">Add New Destination</Nav.Link>
+
+                            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                                <NavDropdown.Item as={Link} to="/manageallorders" >Manage All Orders</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/addnewdestination" >Add New Destination</NavDropdown.Item>
+
+
+
+
+                            </NavDropdown>
+
                             <Nav.Link as={Link} to="/userorderlist">User Order list</Nav.Link>
                             {
                                 user.email &&

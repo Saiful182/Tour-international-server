@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Elbert Frazie",
+        "completed-tour": 15,
+        "review": 4.5,
+        "img": "https://i.postimg.cc/qMnVKPkH/19.jpg"
+    },
+    {
+        "name": "Cathy Neal",
+        "completed-tour": 27,
+        "review": 4.8,
+        "img": "https://i.postimg.cc/SK9yxnJC/2.jpg"
+    },
+    {
+        "name": "Lyle Santiago",
+        "completed-tour": 37,
+        "review": 4.7,
+        "img": "https://i.postimg.cc/HkgG96xc/20.jpg"
+    },
+    {
+        "name": "Joanna Townsend",
+        "completed-tour": 40,
+        "review": 4.1,
+        "img": "https://i.postimg.cc/pLhvsmQ4/3.jpg"
+    },
+    {
+        "name": "Roger Powers",
+        "completed-tour": 32,
+        "review": 4.3,
+        "img": "https://i.postimg.cc/CxqyjWSV/4.jpg"
+    },
+    {
+        "name": "Craig Watts",
+        "completed-tour": 30,
+        "review": 4.8,
+        "img": "https://i.postimg.cc/wBXSrL1f/5.jpg"
+    },
+    {
+        "name": "Orlando Hawkins",
+        "completed-tour": 19,
+        "review": 4.9,
+        "img": "https://i.postimg.cc/L67KgHdT/6.jpg"
+    },
+    {
+        "name": "Jonathan Gibbs",
+        "completed-tour": 29,
+        "review": 4.2,
+        "img": "https://i.postimg.cc/YSK58bCL/7.jpg"
+    },
+    {
+        "name": "Jamie Gregory",
+        "completed-tour": 14,
+        "review": 4.1,
+        "img": "https://i.postimg.cc/tT9LGJPX/8.jpg"
+    }
+]

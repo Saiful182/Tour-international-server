@@ -15,57 +15,26 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
 
     const signInUsingGoogle = () => {
-        signInWithPopup(auth, googleProvider)
-            .then((result) => {
-                const user = result.user
-                setUser(user)
-                setError('');
-
-            }).catch((error) => {
-                const errorMessage = error.message;
-                setError(errorMessage);
-            });
+        return signInWithPopup(auth, googleProvider)
 
     }
     const logInWithPasswordEmail = () => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                const user = userCredential.user;
-                setUser(user);
-                setError('');
+        return signInWithEmailAndPassword(auth, email, password)
 
-
-            })
-            .catch((error) => {
-                const errorMessage = error.message;
-                setError(errorMessage);
-            });
     }
     const setUserName = () => {
         updateProfile(auth.currentUser, { displayName: name })
             .then((result) => {
-
                 setError('');
-                // setUser(user);
+
             }).catch((error) => {
                 setError(error);
             }
             )
     }
     const regitration = () => {
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                setUserName();
+        return createUserWithEmailAndPassword(auth, email, password)
 
-                const user = userCredential.user;
-                setUser(user);
-                setError('');
-
-            })
-            .catch((error) => {
-                const errorMessage = error.message;
-                setError(errorMessage);
-            });
     }
     const logOut = () => {
         signOut(auth).then(() => {
@@ -83,7 +52,7 @@ const useFirebase = () => {
         });
     }, [])
     return {
-        signInUsingGoogle, logOut, user, error, setName, setPassword, setEmail, regitration, logInWithPasswordEmail
+        signInUsingGoogle, logOut, user, error, setName, setPassword, setEmail, regitration, logInWithPasswordEmail, setError, setUserName, password
     }
 }
 export default useFirebase;
