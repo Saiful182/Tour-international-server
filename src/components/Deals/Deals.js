@@ -1,11 +1,13 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import Deal from '../Deal/Deal';
-import useBdPlaces from '../hooks/useBdPlaces';
+
+import usePakages from '../hooks/usePakages';
 import './Deals.css'
 
 const Deals = () => {
-    const { bdPlaces } = useBdPlaces();
+    const { pakages } = usePakages();
+    const bdPlaces = pakages.filter(pakages => (pakages.country === "Bangladesh"));
 
 
     return (

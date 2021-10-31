@@ -6,7 +6,7 @@
     padding: 10px;
     background-color: rgba(117, 117, 139, 0.5);
 }
-.regitration-Form label,p{
+.regitration-Form label,.regitration-Form p{
     color: white;
 }
 

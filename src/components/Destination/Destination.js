@@ -1,9 +1,29 @@
 import React from 'react';
 import { Button, Card, Carousel, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../hooks/useAuth';
+import axios from 'axios';
 import './Destination.css'
 
 const Destination = (props) => {
+    const { user } = useAuth();
+
+    const handelBook = () => {
+        const cart = {
+            use_name: user.displayName,
+            pakage_name: name,
+            product_img: img2,
+            price: Price,
+            country: country,
+            id: _id,
+            approval: 'pending'
+        }
+        axios.post('https://stark-shore-53835.herokuapp.com/cart', cart)
+            .then(res => {
+                alert('Pakage added to your Order list');
+            })
+
+    }
     const { name, country, _id, description, days, img1, img2, img3, Price, places, review } = props.pakage;
 
 
@@ -49,7 +69,11 @@ const Destination = (props) => {
                             <h6>Price :{Price}$ </h6>
 
                         </Card.Body>
-                        <Button as={Link} to='/userorderlist' >Book Now</Button>
+                        {
+                            user.email ?
+                                <Button onClick={handelBook}>Book Now</Button> :
+                                <Button as={Link} to='/login'>Book Now</Button>
+                        }
                     </Card>
                 </Col>
             }

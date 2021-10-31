@@ -98,7 +98,7 @@
         "Price": 795,
         "review": 4.1,
         "places": "Agra,New Delhi,Taj Mahal,Jaipur,RANTHAMBORE NATIONAL PARK",
-        "Descrption": "Start and end in New Delhi! With the Adventure tour RANTHAMBORE NATIONAL PARK & BHARATUR WITH GOLDEN TRIANGLE TOUR, you have a 8 days tour package taking you through New Delhi, India and 4 other destinations in India. RANTHAMBORE NATIONAL PARK & BHARATUR WITH GOLDEN TRIANGLE TOUR includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "descrption": "Start and end in New Delhi! With the Adventure tour RANTHAMBORE NATIONAL PARK & BHARATUR WITH GOLDEN TRIANGLE TOUR, you have a 8 days tour package taking you through New Delhi, India and 4 other destinations in India. RANTHAMBORE NATIONAL PARK & BHARATUR WITH GOLDEN TRIANGLE TOUR includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/L4tWsCJX/22.jpg",
         "img2": "https://i.postimg.cc/gjHtBJCR/23.jpg",
         "img3": "https://i.postimg.cc/vHGNxrnv/24.jpg"
@@ -110,8 +110,8 @@
         "days": 5,
         "Price": 695,
         "review": 4.7,
-        "Places": "Pokhara,Annapurna",
-        "DesCription": "Start and end in Pokhara! With the Hiking & Trekking tour Annapurna Homestay Trek, you have a 5 days tour package taking you through Pokhara, Nepal and 2 other destinations in Nepal. Annapurna Homestay Trek includes accommodation, an expert guide, transport.",
+        "places": "Pokhara,Annapurna",
+        "description": "Start and end in Pokhara! With the Hiking & Trekking tour Annapurna Homestay Trek, you have a 5 days tour package taking you through Pokhara, Nepal and 2 other destinations in Nepal. Annapurna Homestay Trek includes accommodation, an expert guide, transport.",
         "img1": "https://i.postimg.cc/RVGb7WQx/25.jpg",
         "img2": "https://i.postimg.cc/6p3bYBY2/26.jpg",
         "img3": "https://i.postimg.cc/5tQ7Wncf/27.jpg"
@@ -123,8 +123,8 @@
         "days": 11,
         "Price": 801,
         "review": 4.8,
-        "Places": "Kathmandu,Chitwan National Park,Nagarkot,Pokhara",
-        "DesCription": "Start and end in Kathmandu! With the In-depth Cultural tour Explore Nepal Tours 11 Days, you have a 11 days tour package taking you through Kathmandu, Nepal and 6 other destinations in Nepal. Explore Nepal Tours 11 Days includes accommodation in a hotel as well as an expert guide, meals, transport.",
+        "places": "Kathmandu,Chitwan National Park,Nagarkot,Pokhara",
+        "description": "Start and end in Kathmandu! With the In-depth Cultural tour Explore Nepal Tours 11 Days, you have a 11 days tour package taking you through Kathmandu, Nepal and 6 other destinations in Nepal. Explore Nepal Tours 11 Days includes accommodation in a hotel as well as an expert guide, meals, transport.",
         "img1": "https://i.postimg.cc/13jCdbjW/28.jpg",
         "img2": "https://i.postimg.cc/26pHkhmh/29.jpg",
         "img3": "https://i.postimg.cc/RFcgNhV8/30.jpg"
@@ -136,8 +136,8 @@
         "days": 10,
         "Price": 3980,
         "review": 4.9,
-        "Places": "Vancouver,Calgary,Grand Canadian Rockies",
-        "DesCription": "Start in Vancouver and end in Calgary! With the In-depth Cultural tour Grand Canadian Rockies, you have a 10 days tour package taking you through Vancouver, Canada and 6 other destinations in Canada. Grand Canadian Rockies includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Vancouver,Calgary,Grand Canadian Rockies",
+        "description": "Start in Vancouver and end in Calgary! With the In-depth Cultural tour Grand Canadian Rockies, you have a 10 days tour package taking you through Vancouver, Canada and 6 other destinations in Canada. Grand Canadian Rockies includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/KjxJLb1Y/31.jpg",
         "img2": "https://i.postimg.cc/9XbBSv4G/32.jpg",
         "img3": "https://i.postimg.cc/7YQnP0nh/33.jpg"
@@ -149,8 +149,8 @@
         "days": 9,
         "Price": 1376,
         "review": 4.5,
-        "Places": "Whistler,Banff National Park",
-        "DesCription": "Start in Vancouver and end in Calgary! With the Adventure tour The Powder Rush, you have a 9 days tour package taking you through Vancouver, Canada and 3 other destinations in Canada. The Powder Rush includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Whistler,Banff National Park",
+        "description": "Start in Vancouver and end in Calgary! With the Adventure tour The Powder Rush, you have a 9 days tour package taking you through Vancouver, Canada and 3 other destinations in Canada. The Powder Rush includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/gk0KPNR1/34.jpg",
         "img2": "https://i.postimg.cc/sxT9hhFn/35.jpg",
         "img3": "https://i.postimg.cc/T3LqK1t9/36.jpg"
@@ -162,8 +162,8 @@
         "days": 12,
         "Price": 1863,
         "review": 4.3,
-        "Places": "Rio de Janeiro,Manaus,Foz do Iguazu",
-        "DesCription": "Start in Rio de Janeiro and end in Manaus! With the Explorer tour Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience, you have a 12 days tour package taking you through Rio de Janeiro, Brazil and 2 other destinations in Brazil. Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
+        "places": "Rio de Janeiro,Manaus,Foz do Iguazu",
+        "description": "Start in Rio de Janeiro and end in Manaus! With the Explorer tour Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience, you have a 12 days tour package taking you through Rio de Janeiro, Brazil and 2 other destinations in Brazil. Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
         "img1": "https://i.postimg.cc/tgF3zfQn/37.jpg",
         "img2": "https://i.postimg.cc/9Q6PZ2Sj/38.jpg",
         "img3": "https://i.postimg.cc/3R7gfBYS/39.jpg"
@@ -175,8 +175,8 @@
         "days": 7,
         "Price": 1163,
         "review": 4.4,
-        "Places": "São Luis,Manaus,Fortaleza,Barreirinhas",
-        "DesCription": "Start in Rio de Janeiro and end in Manaus! With the Explorer tour Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience, you have a 12 days tour package taking you through Rio de Janeiro, Brazil and 2 other destinations in Brazil. Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
+        "places": "São Luis,Manaus,Fortaleza,Barreirinhas",
+        "description": "Start in Rio de Janeiro and end in Manaus! With the Explorer tour Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience, you have a 12 days tour package taking you through Rio de Janeiro, Brazil and 2 other destinations in Brazil. Rio de Janeiro, Foz do Iguazu and Amazon Sustainable Experience includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
         "img1": "https://i.postimg.cc/0Qf7TwN8/40.jpg",
         "img2": "https://i.postimg.cc/wMjDgjtD/41.jpg",
         "img3": "https://i.postimg.cc/QxVczVZ3/42.jpg"
@@ -188,8 +188,8 @@
         "days": 11,
         "Price": 1263,
         "review": 4.7,
-        "Places": "Baobabs,Antananarivo",
-        "DesCription": "Start and end in Antananarivo! With the Wildlife tour Madagascar Baobabs & Beyond, you have a 11 days tour package taking you through Antananarivo, Madagascar and 5 other destinations in Madagascar. Madagascar Baobabs & Beyond includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Baobabs,Antananarivo",
+        "description": "Start and end in Antananarivo! With the Wildlife tour Madagascar Baobabs & Beyond, you have a 11 days tour package taking you through Antananarivo, Madagascar and 5 other destinations in Madagascar. Madagascar Baobabs & Beyond includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/pVsDkz7C/43.jpg",
         "img2": "https://i.postimg.cc/sxH7XCSq/44.jpg",
         "img3": "https://i.postimg.cc/gk53bdG6/45.jpg"
@@ -201,8 +201,8 @@
         "days": 15,
         "Price": 2763,
         "review": 4.8,
-        "Places": "Baobabs,Antananarivo",
-        "DesCription": "Start and end in Antananarivo! With the Adventure tour 15 Days Details Madagascar, you have a 15 days tour package taking you through Antananarivo, Madagascar and 9 other destinations in Madagascar. 15 Days Details Madagascar includes accommodation, an expert guide, meals and more",
+        "places": "Baobabs,Antananarivo",
+        "description": "Start and end in Antananarivo! With the Adventure tour 15 Days Details Madagascar, you have a 15 days tour package taking you through Antananarivo, Madagascar and 9 other destinations in Madagascar. 15 Days Details Madagascar includes accommodation, an expert guide, meals and more",
         "img1": "https://i.postimg.cc/DwXL2Dzp/46.jpg",
         "img2": "https://i.postimg.cc/YSNFFWY1/48.jpg",
         "img3": "https://i.postimg.cc/rp2WzJ0V/47.jpg"
@@ -214,8 +214,8 @@
         "days": 10,
         "Price": 1763,
         "review": 4.6,
-        "Places": "Madrid,Granada,Barcelona",
-        "DesCription": "Start in Barcelona and end in Madrid! With the In-depth Cultural tour Ultimate Spain Adventure Tour, you have a 10 days tour package taking you through Barcelona, Spain and 6 other destinations in Spain. Ultimate Spain Adventure Tour includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Madrid,Granada,Barcelona",
+        "description": "Start in Barcelona and end in Madrid! With the In-depth Cultural tour Ultimate Spain Adventure Tour, you have a 10 days tour package taking you through Barcelona, Spain and 6 other destinations in Spain. Ultimate Spain Adventure Tour includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/QCzKDkZr/52.jpg",
         "img2": "https://i.postimg.cc/fLw9fRf1/49.jpg",
         "img3": "https://i.postimg.cc/mD8FXWdk/50.jpg"
@@ -227,8 +227,8 @@
         "days": 7,
         "Price": 1263,
         "review": 4.2,
-        "Places": "Madrid,Malaga,Barcelona",
-        "DesCription": "Start in Madrid and end in Barcelona! With the In-depth Cultural tour Classical Spain, you have a 8 days tour package taking you through Madrid, Spain and 9 other destinations in Spain. Classical Spain includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
+        "places": "Madrid,Malaga,Barcelona",
+        "description": "Start in Madrid and end in Barcelona! With the In-depth Cultural tour Classical Spain, you have a 8 days tour package taking you through Madrid, Spain and 9 other destinations in Spain. Classical Spain includes accommodation in a hotel as well as an expert guide, insurance, meals, transport and more.",
         "img1": "https://i.postimg.cc/GttT6gNQ/51.jpg",
         "img2": "https://i.postimg.cc/dQNyGvkS/53.jpg",
         "img3": "https://i.postimg.cc/657G0SC6/54.jpg"
@@ -240,8 +240,8 @@
         "days": 8,
         "Price": 1163,
         "review": 4.7,
-        "Places": "Cancun,Maya",
-        "DesCription": "Start and end in Cancun! With the In-depth Cultural tour Wonders of the Maya, you have a 8 days tour package taking you through Cancun, Mexico and 10 other destinations in Mexico. Wonders of the Maya includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Cancun,Maya",
+        "description": "Start and end in Cancun! With the In-depth Cultural tour Wonders of the Maya, you have a 8 days tour package taking you through Cancun, Mexico and 10 other destinations in Mexico. Wonders of the Maya includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/PrBvF4MW/55.jpg",
         "img2": "https://i.postimg.cc/MpVfkQsh/56.jpg",
         "img3": "https://i.postimg.cc/KYbkm8w4/57.jpg"
@@ -253,8 +253,8 @@
         "days": 9,
         "Price": 1563,
         "review": 4.2,
-        "Places": "Mexico City,Madridn",
-        "DesCription": "Start in Mexico City and end in Santa Maria Huatulco! With the Food & Culinary tour Mexico Real Food Adventure, you have a 9 days tour package taking you through Mexico City, Mexico and 3 other destinations in Mexico. Mexico Real Food Adventure includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Mexico City,Madridn",
+        "description": "Start in Mexico City and end in Santa Maria Huatulco! With the Food & Culinary tour Mexico Real Food Adventure, you have a 9 days tour package taking you through Mexico City, Mexico and 3 other destinations in Mexico. Mexico Real Food Adventure includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https://i.postimg.cc/vmv1Tdwh/58.jpg",
         "img2": "https://i.postimg.cc/pTXmn12H/59.jpg",
         "img3": "https://i.postimg.cc/fL2J7jL0/60.jpg"
@@ -266,10 +266,210 @@
         "days": 9,
         "Price": 1563,
         "review": 4.2,
-        "Places": "Mexico City,Madridn",
-        "DesCription": "Start in Mexico City and end in Santa Maria Huatulco! With the Food & Culinary tour Mexico Real Food Adventure, you have a 9 days tour package taking you through Mexico City, Mexico and 3 other destinations in Mexico. Mexico Real Food Adventure includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "places": "Mexico City,Madridn",
+        "description": "Start in Mexico City and end in Santa Maria Huatulco! With the Food & Culinary tour Mexico Real Food Adventure, you have a 9 days tour package taking you through Mexico City, Mexico and 3 other destinations in Mexico. Mexico Real Food Adventure includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
         "img1": "https//i.postimg.cc/mkKkJL7L/61.jpg",
         "img2": "https//i.postimg.cc/zDQyVj6s/62.jpg",
         "img3": "https//i.postimg.cc/1X84vnn7/63.jpg"
+    },
+    {
+        "name": "Cox's bazar",
+        "days": 4,
+        "Price": 300,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/qMjs4SbP/0001.jpg",
+        "places": "Cox's Bazer"
+    },
+    {
+        "name": "Saint martin",
+        "days": 4,
+        "Price": 500,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/K8jnzfCR/0002.jpg",
+        "places": "Teknaf"
+    },
+    {
+        "name": "Shundorban",
+        "days": 3,
+        "Price": 200,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/m2XH0MhR/0003.jpg",
+        "places": "Khulna"
+    },
+    {
+        "name": "kuakata",
+        "days": 3,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/kXXS1wJf/0004.jpg",
+        "places": "Barishal"
+    },
+    {
+        "name": "Lalbagh",
+        "days": 1,
+        "Price": 500,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/bJcbmhrt/0005.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Ahsan Monjil",
+        "days": 1,
+        "Price": 300,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/66hRfFX8/0006.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Panam Nagor",
+        "days": 1,
+        "Price": 300,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/zGyg5BRh/0007.jpg",
+        "places": "Narayonganj"
+    },
+    {
+        "name": "Mosque places Of Bagherhat",
+        "days": 3,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/Xqn50kwN/0008.jpg",
+        "places": "Bagherhatt"
+    },
+    {
+        "name": "Armenia Church",
+        "days": 1,
+        "Price": 900,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/5ypC9Q3B/0009.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Jaflong",
+        "days": 2,
+        "Price": 500,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/PxWDcRvF/0010.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Shada Pathor",
+        "days": 2,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/L54JW6pn/0011.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Ratargul Swamp Forest",
+        "days": 2,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/C5vRpThJ/0012.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Rangamati",
+        "days": 3,
+        "Price": 900,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/htQf65Hb/0013.jpg",
+        "places": "Rangamati"
+    },
+    {
+        "name": "Sajek Vally",
+        "days": 3,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/DyMSCTYw/0014.jpg",
+        "places": "Bandarban"
+    },
+    {
+        "name": "Kaptai Lake",
+        "days": 3,
+        "Price": 700,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/mDBkc2h8/0015.jpg",
+        "places": "Rangamati"
+    },
+    {
+        "name": "Mahasthangarh",
+        "days": 2,
+        "Price": 700,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/6QsyXhKs/0016.jpg",
+        "places": "Bogra"
+    },
+    {
+        "name": "Gaur",
+        "days": 2,
+        "Price": 800,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/tCT1tTkc/0017.jpg",
+        "places": "Rajshahi"
+    },
+    {
+        "name": "Srimangal",
+        "days": 2,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/yNFWYS6D/0018.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Kantajew Temple",
+        "days": 3,
+        "Price": 900,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/rsYwY1jP/0019.jpg",
+        "places": "Rangpur"
+    },
+    {
+        "name": "Star Mosque",
+        "days": 1,
+        "Price": 600,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/4y335L6c/0020.jpg",
+        "places": "Dhaka"
     }
 ]

@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Cox's bazar",
+        "days": 4,
+        "Price": 300,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/qMjs4SbP/0001.jpg",
+        "places": "Cox's Bazer"
+    },
+    {
+        "name": "Saint martin",
+        "days": 4,
+        "Price": 500,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/K8jnzfCR/0002.jpg",
+        "places": "Teknaf"
+    },
+    {
+        "name": "Shundorban",
+        "days": 3,
+        "Price": 200,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/m2XH0MhR/0003.jpg",
+        "places": "Khulna"
+    },
+    {
+        "name": "kuakata",
+        "days": 3,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/kXXS1wJf/0004.jpg",
+        "places": "Barishal"
+    },
+    {
+        "name": "Lalbagh",
+        "days": 1,
+        "Price": 500,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/bJcbmhrt/0005.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Ahsan Monjil",
+        "days": 1,
+        "Price": 300,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/66hRfFX8/0006.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Panam Nagor",
+        "days": 1,
+        "Price": 300,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/zGyg5BRh/0007.jpg",
+        "places": "Narayonganj"
+    },
+    {
+        "name": "Mosque places Of Bagherhat",
+        "days": 3,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/Xqn50kwN/0008.jpg",
+        "places": "Bagherhatt"
+    },
+    {
+        "name": "Armenia Church",
+        "days": 1,
+        "Price": 900,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/5ypC9Q3B/0009.jpg",
+        "places": "Dhaka"
+    },
+    {
+        "name": "Jaflong",
+        "days": 2,
+        "Price": 500,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/PxWDcRvF/0010.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Shada Pathor",
+        "days": 2,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/L54JW6pn/0011.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Ratargul Swamp Forest",
+        "days": 2,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/C5vRpThJ/0012.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Rangamati",
+        "days": 3,
+        "Price": 900,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/htQf65Hb/0013.jpg",
+        "places": "Rangamati"
+    },
+    {
+        "name": "Sajek Vally",
+        "days": 3,
+        "Price": 800,
+        "rating": 5,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/DyMSCTYw/0014.jpg",
+        "places": "Bandarban"
+    },
+    {
+        "name": "Kaptai Lake",
+        "days": 3,
+        "Price": 700,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/mDBkc2h8/0015.jpg",
+        "places": "Rangamati"
+    },
+    {
+        "name": "Mahasthangarh",
+        "days": 2,
+        "Price": 700,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/6QsyXhKs/0016.jpg",
+        "places": "Bogra"
+    },
+    {
+        "name": "Gaur",
+        "days": 2,
+        "Price": 800,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/tCT1tTkc/0017.jpg",
+        "places": "Rajshahi"
+    },
+    {
+        "name": "Srimangal",
+        "days": 2,
+        "Price": 600,
+        "rating": 4,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/yNFWYS6D/0018.jpg",
+        "places": "Sylhet"
+    },
+    {
+        "name": "Kantajew Temple",
+        "days": 3,
+        "Price": 900,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/rsYwY1jP/0019.jpg",
+        "places": "Rangpur"
+    },
+    {
+        "name": "Star Mosque",
+        "days": 1,
+        "Price": 600,
+        "rating": 3,
+        "country": "Bangladesh",
+        "review": 4.2,
+        "img": "https://i.postimg.cc/4y335L6c/0020.jpg",
+        "places": "Dhaka"
+    }
+]

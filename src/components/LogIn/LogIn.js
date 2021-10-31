@@ -43,6 +43,9 @@ const LogIn = () => {
     }
     return (
         <div className="login-container">
+            <div>
+                {location.state && <h2 style={{ "color": "white", "textAlign": "center" }} >Please Log in frist</h2>}
+            </div>
             <div >
                 <Form className="LoginForm" onSubmit={handelLogin} >
                     <Form.Group className="mb-3" controlId="formBasicEmail">

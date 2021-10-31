@@ -1,0 +1,15 @@
+
+.cart-info-conatiner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: start;
+}
+.cart-info{
+    margin: 20px auto;
+    border-right: 1px solid darkcyan;
+    padding-right: 20px;
+}
+.cart-price h3{
+    margin:20px
+}

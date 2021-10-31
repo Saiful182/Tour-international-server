@@ -6,7 +6,7 @@
     padding: 10px;
     background-color: rgba(117, 117, 139, 0.5);
 }
-.LoginForm label,p{
+.LoginForm label,.LoginForm p{
   color:white;
 }
 .login-container{
