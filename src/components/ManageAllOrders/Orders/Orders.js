@@ -7,6 +7,24 @@ import './Orders.css'
 const Orders = (props) => {
     const { cart, setCart } = useCart()
     const { approval, country, _id, use_name, pakage_name, product_img, price } = props.cart;
+    const handelRemoveiteam = id => {
+        const procced = window.confirm('are you really want to delete this data?');
+        if (procced) {
+            const url = `https://stark-shore-53835.herokuapp.com/cart/${id}`;
+            fetch(url, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount > 0) {
+                        const remainingCart = cart.filter(pakage => pakage._id !== id)
+                        setCart(remainingCart);
+                        alert('deleted successfully');
+                    }
+                })
+
+        }
+    }
     const handelApproval = id => {
         const approvedPakage = cart.filter(pakage => pakage._id === id)
 
@@ -20,18 +38,15 @@ const Orders = (props) => {
         })
             .then(res => res.json())
             .then(data => {
-
                 if (data.modifiedCount > 0) {
                     alert('updated data sucessfully');
-
                 }
-
             })
     }
 
     return (
         <Col>
-            <Card className="card-card" style={{ width: '18rem' }}>
+            <Card className="manage-all-card shadow p-3 mb-5 bg-body rounded" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={product_img} />
                 <Card.Body>
                     <Card.Title>{pakage_name}</Card.Title>
@@ -43,13 +58,10 @@ const Orders = (props) => {
                     <Card.Text>
                         Status: {approval}
                     </Card.Text>
-
-
-
-
-                    <Button onClick={() => handelApproval(_id)} className="cart-button" variant="primary">Aprrove</Button>
-
-
+                    {
+                        approval !== 'Approved' && <Button onClick={() => handelApproval(_id)} className="cart-button" variant="primary">Aprrove</Button>
+                    }
+                    <Button onClick={() => handelRemoveiteam(_id)} className="cart-button">Delete Pakage</Button>
                 </Card.Body>
             </Card>
         </Col >

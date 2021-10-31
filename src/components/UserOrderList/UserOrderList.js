@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Spinner } from 'react-bootstrap';
 import useAuth from '../hooks/useAuth';
 import useCart from '../hooks/useCart';
 import CartDetails from './CartDetails/CartDetails';
@@ -17,7 +18,11 @@ const UserOrderList = () => {
             <div >
                 <div className="cart-info">
                     {
-                        userCart.map(cart => <CartDetails cart={cart} key={cart._id}></CartDetails>)
+                        cart.length === 0 ? <Spinner className="spinner" animation="border" /> : <Row xs={1} md={2} lg={3} className="g-4">
+                            {
+                                userCart.map(cart => <CartDetails cart={cart} key={cart._id}></CartDetails>)
+                            }
+                        </Row>
                     }
                 </div>
             </div >

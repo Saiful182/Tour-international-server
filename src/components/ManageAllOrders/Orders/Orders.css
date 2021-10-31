@@ -2,3 +2,10 @@
     width: 100% !important;
     margin: 2px 0;
 }
+.manage-all-card{
+    height: 500px ;
+    margin: 20px 30px;
+}
+.manage-all-card img{
+    height: 153px !important;
+}
