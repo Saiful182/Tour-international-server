@@ -1,7 +1,5 @@
 
 import './App.css';
-
-
 import Home from './components/Home/Home';
 import Destinations from './components/Destinations/Destinations';
 import Deals from './components/Deals/Deals';
@@ -17,6 +15,7 @@ import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
 import AddNewDestinations from './components/Add New Destination/AddNewDestinations';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+
 function App() {
   return (
     <div>

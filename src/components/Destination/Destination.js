@@ -69,11 +69,13 @@ const Destination = (props) => {
                             <h6>Price :{Price}$ </h6>
 
                         </Card.Body>
+
                         {
                             user.email ?
                                 <Button onClick={handelBook}>Book Now</Button> :
                                 <Button as={Link} to='/login'>Book Now</Button>
                         }
+
                     </Card>
                 </Col>
             }

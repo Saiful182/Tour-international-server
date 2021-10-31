@@ -1,6 +1,6 @@
 .form-container{
    width: 40%;
-   margin:50px auto;
+   margin:0 auto;
    border: 1px solid none;
    background-color: rgba(117, 117, 139, 0.5);;
    padding: 30px;
@@ -9,4 +9,12 @@
 .form-container input{
     width: 100%;
     margin: 5px 0;
+}
+.form-container label{
+    font-size: large;
+    font-weight: bold;
+}
+.whole-container{
+    background-color: rgb(155, 155, 155);
+    padding: 30px 0;
 }
